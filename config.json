@@ -1,0 +1,15 @@
+{
+    "ip": "localhost",
+    "port": 9001,
+    "webhooks": {
+      "/update_writeups": {
+        "type": "cmd",
+        "data": "/var/scripts/update_writeups.sh",
+        "secret_token": "L1VKYopzL7SqBxtc8Grv9FEhwlb4fF0Q"
+      },
+      "/update_home": {
+        "type": "command",
+        "data": "/var/scripts/update_home.sh"
+      }
+    }
+  }
